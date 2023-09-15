@@ -1,0 +1,164 @@
+/* _°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_° */
+/* basicos de pagina base [COMIENZO] */
+
+body {
+    background: fixed #3e424d;
+}
+
+.text-systemTitle {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex-container {
+    display: flex;
+    background: fixed #706f6f;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-caja {
+    border: 0.5vw solid;
+    background: fixed white;
+    width: 4vw;
+    height: 4vw;
+    text-align: center;
+    font-size: 1.5vw;
+    margin: 2vw;
+
+}
+
+.flex-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: radial-gradient(#578ba8, #41687e);
+    height: 14vw;
+    border-radius: 1vw 1vw 25% 25%;
+    margin-bottom: 10vh;
+}
+
+.flex-header-items {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1.5vw;
+    background: linear-gradient(#578ba8, #537283);
+    border-radius: 15%;
+}
+
+.flex-main-container {
+    display: flex;
+    justify-content: center;
+    background: fixed rgb(173, 173, 157);
+    border-radius: 1vw;
+}
+
+.flex-main-container > * {
+    padding: 7vh;
+}
+
+.flex-footer-container {
+    display: flex;
+    flex-direction: column;
+    background: fixed #535e57;
+    border-radius: 1vw;
+    margin-top: 8vh;
+}
+
+.flex-footer-items {
+    text-align: center;
+    color: white;
+}
+
+/* basicos de pagina base [FINAL] */
+/* _°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_° */
+/* estilos de formulario [COMIENZO] */
+
+.flex-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex-form-items {
+    padding: 1vw;
+    width: 24vh;
+    margin: 2vw 0vw 4vw 0vw;
+    text-align: center;
+}
+
+.flex-form-button {
+    padding: 1.3vw;
+    color: antiquewhite;
+    border: 1;
+    border-color: antiquewhite;
+    border-radius: 1vw;
+    border-style: solid;
+}
+
+.flex-form-button-reset {
+    background: radial-gradient(hsl(12, 94%, 42%) , hsl(12, 95%, 30%));
+}
+
+.flex-form-button-submit {
+    background: radial-gradient(hsl(113, 94%, 42%) , hsl(113, 95%, 30%));
+    color: #3e424d;
+}
+
+/* división clase | ID */
+
+
+.formatSpace {
+    margin-bottom: 5vw;
+}
+
+#flex-form-textlogo {
+    display: flex;
+    justify-content: center;
+}
+
+#flex-form-textlogo > * {
+    background: linear-gradient(#535e57,#41687e);
+    padding: 2vw;
+    border-radius: 3vw;
+    border: #578ba8 solid 2px;
+    color: aliceblue;
+}
+
+#templates-registro-topButton {
+    margin-bottom: 6vw;
+}
+
+#templates-registro-bottomButton {
+    margin-top: 6vw;
+}
+
+#specificForm1 {
+    background: none;
+}
+
+#specificForm2 {
+    width: 52vw;
+    background: fixed #53534b;
+
+}
+
+/* estilos de formulario [FINAL] */
+/* _°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_° */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

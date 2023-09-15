@@ -1,0 +1,25 @@
+.formButton {
+    padding: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.header-nav {
+    display: flex;
+    background: radial-gradient(#578ba8, #96b7c9);
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: content;
+}
+
+.header-nav-logo {
+    display: inline-flex;
+    height: 12vh;
+}
+
+.header-nav-text {
+    padding: 12vh;
+    
+}
+
