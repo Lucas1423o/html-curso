@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="shortcut icon" href="/media/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+        .cool_form {
+            size: 2vw;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header (?) -->
+    <header>
+        <nav>
+            <a href="/index.html">Inicio</a>
+            <a href="/templates/lista.html">Listas</a>
+            <a href="/templates/tabla.html">Tabla</a>
+            <a href="/templates/galeria.html">Galería</a>
+            <a href="/templates/registro.html">Registro (Formulario)</a>
+            <a href="https://www.google.com/" target="_blank">Google</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <br><br><br><br>
+        <center>
+            <h2>Formulario</h2>
+
+            <form action="">
+                <div>
+                    <input type="reset" value="Reiniciar Formulario">
+                </div>
+
+                <br><br><br>
+
+                <div>
+                    <label for="form_nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="form_nombre" placeholder="nombre aquí" required>
+                </div>
+
+                <br><br><br>
+
+                <div>
+                    <label for="form_apellido">Apellido:</label>
+                    <input type="text" name="apellido" id="form_apellido" placeholder="apellido aquí" required>
+                </div>
+
+                <br><br><br>
+
+                <div>
+                    <label for="form_nacimiento">Fecha de nacimiento:</label>
+                    <input type="date" name="nacimiento" id="form_nacimiento" required>
+                </div>
+
+                <br><br><br>
+
+                <div>
+                    <label for="form_edad">Edad:</label>
+                    <input type="number" name="form_edad" id="form_edad" required min="18">
+                </div>
+
+                <br><br><br>
+
+                <div>
+                    <label for="form_genero">Genero</label>
+                    <select name="form_genero" id="form_genero">Elige una opción:
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </div>
+
+                <br><br><br>
+
+                <div>
+                    <h2>area de desarrollo</h2>
+                    <div>
+                        <input type="radio" name="interes" id="desarrollo_web">
+                        <label for="desarrollo_web">Desarrollo Web</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="interes" id="analisis_de_datos">
+                        <label for="analisis_de_datos">Analisis de datos</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="interes" id="form_desarrollo_videojuegos">
+                        <label for="form_desarrollo_videojuegos">Desarrollo de videojuegos</label>
+                    </div>
+
+                </div>
+
+                <br><br><br>
+
+                <div>
+                    <input type="checkbox" name="form_HTML" id="form_HTML" value="HTML">
+                    <label for="form_HTML">HTML</label>
+
+                    <input type="checkbox" name="form_CSS" id="form_CSS" value="CSS">
+                    <label for="form_CSS">CSS</label>
+
+                    <input type="checkbox" name="form_JS" id="form_JS" value="JS">
+                    <label for="form_JS">JS</label>
+                </div>
+
+                <br><br><br>
+
+                <div>
+                    <h3>Navegador</h3>
+                    <input list="form_navegadores" id="form_navegador" name="form_navegador">
+
+                    <datalist id="form_navegadores">
+                        <option value="chrome">chrome</option>
+                        <option value="edge">edge</option>
+                        <option value="firefox">firefox</option>
+                        <option value="opera">opera</option>
+                        <option value="safari">safari</option>
+                    </datalist>
+                </div>
+
+                <div>
+                    <fieldset>
+                        <legend>datos personales:</legend>
+
+                        <label for="form_telefono">numero de telefono: </label>
+                        <input type="tel" name="form_telefono" id="form_telefono">
+
+                        <label for="form_email">correo electronico: </label>
+                        <input type="email" name="form_email" id="form_email">
+                    </fieldset>
+                </div>
+
+                <div>
+                    <label for="form_comentarios">comentarios</label>
+                    <textarea name="form_comentarios" id="form_comentarios" cols="30" rows="10"
+                        placeholder="escribir comentarios aquí (opcional)"></textarea>
+                </div>
+
+                <div>
+                    
+                    <input type="submit" value="Enviar" class="help">
+                    <button type="submit">Enviar <img src="/media/icons/almuerzo-cohete.svg" alt="" width="12px"></button>
+                </div>
+            </form>
+        </center>
+    </main>
+
+
+    <footer>
+        <h4>pié de pagina</h4>
+
+        <p>Curso FullStack de Python</p>
+
+
+
+    </footer>
+</body>
+
+</html>

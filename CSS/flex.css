@@ -1,0 +1,40 @@
+.flex-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    flex-direction: column;
+    width: 25vw;
+    height: 35vw;
+    background: fixed;
+    border-radius: 2vw;
+    
+}
+
+.flex-card > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.40vw;
+    background: fixed #dbd4bf;
+    border-radius: 0 0 2vw 2vw;
+    margin-top: -4vw;
+    
+    overflow: hidden;
+}
+
+.flex-card > img {
+    width: 100%;
+    border-radius: 2vw 2vw 0 0;
+    z-index: -1;
+    
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    align-items: center;
+    margin-left: 35vw;
+    row-gap: 1vw;
+}

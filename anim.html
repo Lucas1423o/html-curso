@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="shortcut icon" href="/media/favicon.ico" type="image/x-icon">
+    <style>
+
+        .imagen-wea > img {
+            height: 256px;
+            animation-name: yoquese;
+            animation-duration: 0.5s;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .imagen-wea > img:hover {
+            
+            transform: scale(1.01) rotate(1deg);
+        }
+
+        @keyframes yoquese {
+            0% {margin-left: 20%;}
+            50% {margin-left: 10%;}
+            100% {margin-left: 20%;}
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header (?) -->
+    <header>
+        <nav>
+            <a href="/index.html">Inicio</a>
+            <a href="/templates/lista.html">Listas</a>
+            <a href="/templates/tabla.html">Tabla</a>
+            <a href="/templates/galeria.html">Galería</a>
+            <a href="https://www.google.com/" target="_blank">Google</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="imagen-wea">
+            <img  src="https://s.alicdn.com/@sc04/kf/Hd07f2980ab23491190f270f6e78fc741R.jpg_720x720q50.jpg" alt="wea">
+        </div>
+    </main>
+    
+
+    <footer>
+        <h4>pié de pagina</h4>
+
+        <p>Curso FullStack de Python</p>
+
+
+
+    </footer>
+</body>
+
+</html>

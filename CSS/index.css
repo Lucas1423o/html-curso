@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "PT Sans";
+    src: url(/fonts/PT_Sans/PTSans-Regular.ttf);
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "PT Sans";
+}
+
+
+main > * {
+    font-size: 16px;
+}
+
+h1 {
+    color: #578ba8;
+    size: 3vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.header-logo {
+    display: inline-block;
+    padding: 1vw;
+}
+
+.logo {
+    width: 10vw;
+    border-radius: 0% 25% 25% 0%;
+    box-shadow: 0.2vw 0.2vw 0.2vw 0.2vw #578ba8;
+}
+
+.nav_menu {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+header {
+    background: linear-gradient(to right, #a85762, #a8578b);
+    height: 15vw;
+    border-radius: 0% 0% 25% 0%;
+    font-size: 2vw;
+    stroke: 2vw;
+    text-align: center;
+}
+
+#section0 {
+    background: fixed #a8578b;
+    margin: 15vh 25vw 25vh 15vw;
+    color: aliceblue;
+}
+
+#paragraph0 {
+    padding: 10%;
+}
+
+footer {
+    text-align: center;
+    background: fixed hsla(291, 32%, 50%);
+    padding: 10vh 0% 10vh 0%;
+    color: aliceblue;
+}
+
+
+.help > input {
+    display: flex;
+    background: fixed url(/media/icons/almuerzo-cohete.svg);
+}
