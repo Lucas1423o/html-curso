@@ -1,6 +1,7 @@
 /* _°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_° */
 /* basicos de pagina base [COMIENZO] */
 
+
 body {
     background: fixed #3e424d;
 }
@@ -44,6 +45,11 @@ body {
     padding: 1.5vw;
     background: linear-gradient(#578ba8, #537283);
     border-radius: 15%;
+    transition: 0.3s;
+}
+.flex-header-items:hover {
+    animation-timing-function: ease-in-out;
+    transform: scale(1.2);
 }
 
 .flex-main-container {
