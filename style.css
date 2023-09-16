@@ -37,6 +37,7 @@ body {
     height: 14vw;
     border-radius: 1vw 1vw 25% 25%;
     margin-bottom: 10vh;
+    flex-wrap: wrap;
 }
 
 .flex-header-items {
@@ -112,6 +113,37 @@ body {
     background: radial-gradient(hsl(113, 94%, 42%) , hsl(113, 95%, 30%));
     color: #3e424d;
 }
+
+
+.flex-carrera-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+}
+
+.flex-carrera-card {
+    background: fixed rgb(173, 173, 157);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.25vw;
+}
+.flex-carrera-card > * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1vw;
+}
+.flex-carrera-card > p , h4 {
+    background: fixed #d2d5dd;
+    padding: 0.5vw;
+    border-radius: 2vw;
+}
+
+.flex-carrera-card > img {
+    height: 24vw;
+    border-radius: 2vw;
+    border: solid rgb(219, 210, 155);
+}
+
 
 /* división clase | ID */
 
