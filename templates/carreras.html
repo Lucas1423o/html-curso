@@ -6,8 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/media/meta/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/style.css">
-    <title>Escuela Técnica</title>
+    <link rel="stylesheet" media="screen and (min-width : 605px)" href="/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width : 604px)" href="/css/style_small.css">
+    <title>Escuela Técnica Lorem</title>
     <!-- CAMBIAR LUEGO (titulo) -->
 </head>
 
@@ -17,13 +18,17 @@
     <header>
         <div>
             <nav class="flex-header-container">
-                <a class="flex-header-items" href="/templates/carreras.html">Carreras</a>
-                <a class="flex-header-items" href="/templates/soporte.html">Soporte</a>
-                <a class="flex-header-items" href="/templates/profesores.html">Profesores</a>
+                <div>
+                    <a class="flex-header-items" href="/templates/carreras.html">Carreras</a>
+                    <a class="flex-header-items" href="/templates/soporte.html">Soporte</a>
+                    <a class="flex-header-items" href="/templates/profesores.html">Profesores</a>
+                </div>
                 <a href="/index.html"><img src="/media/meta/logo.svg" alt="logo" height="128" width="128"></a>
-                <a class="flex-header-items" href="/templates/nosotros.html">Nosotros</a>
-                <a class="flex-header-items" href="/templates/registro.html">Inscripción</a>
-                <a class="flex-header-items" href="/templates/login.html">Ingresar</a>
+                <div>
+                    <a class="flex-header-items" href="/templates/nosotros.html">Nosotros</a>
+                    <a class="flex-header-items" href="/templates/registro.html">Inscripción</a>
+                    <a class="flex-header-items" href="/templates/login.html">Ingresar</a>
+                </div>
             </nav>
         </div>
     </header>
@@ -155,6 +160,10 @@
                 <p>Enseñanza de técnicas de cocina, pastelería y repostería.</p>
             </div>
 
+        </div>
+
+        <div class="text-systemTitle">
+            <h2>|Sitio en construcción|</h2>
         </div>
     </main>
 

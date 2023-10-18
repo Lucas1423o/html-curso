@@ -1,0 +1,240 @@
+@font-face {
+    font-family: "Inter";
+    src: url(/css/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
+}
+
+/* _°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_° */
+/* basicos de pagina base [COMIENZO] */
+
+
+body {
+    background: fixed #222;
+}
+
+.text-systemTitle {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex-container {
+    display: flex;
+    background: fixed #706f6f;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-caja {
+    border: 0.5vw solid;
+    background: fixed white;
+    width: 4vw;
+    height: 4vw;
+    text-align: center;
+    font-size: 1.5vw;
+    margin: 2vw;
+
+}
+
+.flex-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: radial-gradient(#515151, #777);
+    
+    min-height: 14vw;
+    border-radius: 1vw 1vw 25% 25%;
+    margin-bottom: 10vh;
+    flex-wrap: wrap;
+    overflow-y: visible;
+}
+
+.flex-header-container > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 12vw;
+    width: 38vw;
+}
+
+.flex-header-items {
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 1.5vw;
+    color: rgb(255, 249, 237);
+    background: linear-gradient(#481EBD, #611BB3);
+    border-radius: 15%;
+    transition: 0.3s;
+    height: 2vw;
+}
+
+.flex-header-items:hover {
+    animation-timing-function: ease-in-out;
+    transform: scale(1.2);
+}
+
+.flex-main-container {
+    display: flex;
+    justify-content: center;
+    background: fixed #3e3e3e;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+}
+
+.flex-main-container > * {
+    padding: 5vh;
+    color: #CDCBCE;
+    font-family: "Inter";
+}
+
+.flex-footer-container {
+    display: flex;
+    flex-direction: column;
+    background: fixed #403946;
+    border-radius: 1vw;
+    margin-top: 8vh;
+}
+
+.flex-footer-items {
+    text-align: center;
+    color: #E9D8FD;
+    font-family: "Inter";
+}
+
+/* basicos de pagina base [FINAL] */
+/* _°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_° */
+/* estilos de formulario [COMIENZO] */
+
+.flex-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: azure;
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    font-family: "Inter";
+}
+
+.flex-form-items {
+    padding: 1vw;
+    width: 24vh;
+    margin: 2vw 0vw 4vw 0vw;
+    text-align: center;
+    font-family: "Inter";
+}
+
+.flex-form-button {
+    padding: 1.3vw;
+    color: rgb(254, 251, 255);
+    border: 1;
+    border-color: rgb(160, 155, 161);
+    border-radius: 1vw;
+    border-style: none;
+    font-family: "Inter";
+    font-size: 1.2vw;
+}
+
+.flex-form-button-reset {
+    background: radial-gradient(hsl(12, 94%, 42%) , hsl(12, 95%, 30%));
+}
+
+.flex-form-button-submit {
+    background: linear-gradient(#481EBD, #611BB3);
+    color: #e0e0e0;
+}
+
+
+.flex-carrera-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+}
+
+.flex-carrera-card {
+    background: fixed rgb(173, 173, 157);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.25vw;
+}
+.flex-carrera-card > * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1vw;
+}
+.flex-carrera-card > p , h4 {
+    background: fixed #d2d5dd;
+    padding: 0.5vw;
+    border-radius: 2vw;
+}
+
+.flex-carrera-card > h4 {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.flex-carrera-card > img {
+    height: 24vw;
+    border-radius: 2vw;
+    border: solid rgb(219, 210, 155);
+}
+
+
+/* media queries */
+
+
+
+/* división clase | ID */
+
+
+.formatSpace {
+    margin-bottom: 5vw;
+}
+
+#flex-form-textlogo {
+    display: flex;
+    justify-content: center;
+}
+
+#flex-form-textlogo > * {
+    background: linear-gradient(#6c6c6c,#606060);
+    padding: 2vw;
+    border-radius: 3vw;
+    border: #578ba8 solid 2px;
+    color: white;
+}
+
+#templates-registro-topButton {
+    margin-bottom: 6vw;
+}
+
+#templates-registro-bottomButton {
+    margin-top: 6vw;
+}
+
+#specificForm1 {
+    background: none;
+}
+
+#specificForm2 {
+    width: 52vw;
+    background: fixed #666566;
+
+}
+
+/* estilos de formulario [FINAL] */
+/* _°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_°_° */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

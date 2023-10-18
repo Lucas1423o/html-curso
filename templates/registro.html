@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/media/meta/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/style.css">
-    <title>Escuela Técnica</title>
+    <link rel="stylesheet" media="screen and (min-width : 605px)" href="/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width : 604px)" href="/css/style_small.css">
+    <title>Escuela Técnica Lorem</title>
     <!-- CAMBIAR LUEGO (titulo) -->
 </head>
 
@@ -18,25 +18,29 @@
     <header>
         <div>
             <nav class="flex-header-container">
-                <a class="flex-header-items" href="/templates/carreras.html">Carreras</a>
-                <a class="flex-header-items" href="/templates/soporte.html">Soporte</a>
-                <a class="flex-header-items" href="/templates/profesores.html">Profesores</a>
+                <div>
+                    <a class="flex-header-items" href="/templates/carreras.html">Carreras</a>
+                    <a class="flex-header-items" href="/templates/soporte.html">Soporte</a>
+                    <a class="flex-header-items" href="/templates/profesores.html">Profesores</a>
+                </div>
                 <a href="/index.html"><img src="/media/meta/logo.svg" alt="logo" height="128" width="128"></a>
-                <a class="flex-header-items" href="/templates/nosotros.html">Nosotros</a>
-                <a class="flex-header-items" href="/templates/registro.html">Inscripción</a>
-                <a class="flex-header-items" href="/templates/login.html">Ingresar</a>
+                <div>
+                    <a class="flex-header-items" href="/templates/nosotros.html">Nosotros</a>
+                    <a class="flex-header-items" href="/templates/registro.html">Inscripción</a>
+                    <a class="flex-header-items" href="/templates/login.html">Ingresar</a>
+                </div>
             </nav>
         </div>
     </header>
 
     <main>
         <div>
-            <h3 class="flex-main-container text-systemTitle formatSpace">Bienvenido al Registro estudiantíl.</h3>
+            <h3 class="flex-main-container text-systemTitle formatSpace center">Bienvenido al Registro estudiantíl.</h3>
             <div id="flex-form-textlogo">
                 <h1>Formulario</h1>
             </div>
             <hr class="formatSpace">
-            <div class="flex-main-container formatSpace" id="specificForm1">
+            <div class="flex-main-container formatSpace center" id="specificForm1">
                 <div class="flex-main-container" id="specificForm2">
                     <form action="" class="flex-form-container">
 
